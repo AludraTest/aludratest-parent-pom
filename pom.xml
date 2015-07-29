@@ -11,6 +11,8 @@
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<aludratest.version>3.0.2</aludratest.version>
+		<!-- set to "deploy site-deploy" in subprojects to also deploy project's site to GitHub. -->
+		<aludratest.release.goals>deploy</aludratest.release.goals>
 	</properties>
 
 	<licenses>
@@ -164,7 +166,7 @@
 				<artifactId>maven-release-plugin</artifactId>
 				<version>2.5.1</version>
 				<configuration>
-					<goals>deploy site-deploy</goals>
+					<goals>${aludratest.release.goals}</goals>
 				</configuration>
 			</plugin>
 		</plugins>
