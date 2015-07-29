@@ -2,7 +2,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>org.aludratest</groupId>
 	<artifactId>aludratest-parent-pom</artifactId>
-	<version>2-SNAPSHOT</version>
+	<version>1-SNAPSHOT</version>
 	<name>AludraTest Parent POM</name>
 	<description>Parent POM for AludraTest modules.</description>
 	<packaging>pom</packaging>
